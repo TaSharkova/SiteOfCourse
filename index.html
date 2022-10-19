@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css"/>
+    <script defer src="./scripts/login-popup.js"></script>
+    <title>Сайт группы</title>
+  </head>
+  <body class="root">
+    <header class="header">
+      <img class="logo" src="./images/logo.svg" alt="Логотип"/>
+      <ul class="site-menu">
+        <li class="site-menu-item">
+          <a class="menu-link active-link" href="#">Главная</a>
+        </li>
+        <li class="site-menu-item">
+          <a class="menu-link" href="./pages/students.html">Студенты</a>
+        </li>
+        <li class="site-menu-item">
+          <a class="menu-link" href="./pages/about.html">О курсе</a>
+        </li>
+        <li class="site-menu-item">
+          <a class="menu-link" href="./pages/contacts.html">Контакты</a>
+        </li>
+      </ul>
+      <a class="login" href="login.html">Войти</a>
+      <div class="login-popup">
+        <h2 class="login-heading">Войти на сайт</h2>
+        <form class="login-form" action="" method="get">
+          <input
+            class="login-input"
+            name="login"
+            type="text"
+            placeholder="Логин"
+            required=""
+          />
+          <input
+            class="login-input"
+            name="password"
+            type="password"
+            placeholder="Пароль"
+            required=""
+          />
+          <button class="popup-button" type="submit">Войти</button>
+        </form>
+      </div>
+    </header>
+    <main class="main">
+      <h1 class="main-heading">
+        Добро пожаловать на курс “Создание веб-сайтов (HTML, CSS)”!
+      </h1>
+      <div class="main-content">
+        <div>
+          <img class="class_photo" src="./images/class.jpg" alt="Фото класса" />
+          <h2 class="content-heading">Для кого этот курс</h2>
+          <p class="main-text">
+            Этот курс рассчитан на новичков, которые только начинают знакомство
+            с веб-разработкой. В начале курса вы узнаете о том, как устроен
+            Интернет и веб-сайты.
+          </p>
+          <p class="main-text">
+            Для обучения необходимо только владеть компьютерной грамотностью
+            (пользоваться браузером, создавать папки и файлы, устанавливать
+            программы).
+          </p>
+          <h2 class="content-heading">Чему вы научитесь</h2>
+          <p class="main-text">
+            На этом курсе вы узнаете, как устроены веб-сайты и как создавать их
+            с нуля. Изучите основы языков
+            <span class="main-text-bold">HTML</span>,
+            <span class="main-text-bold">CSS</span> и немного
+            <span class="main-text-bold">JavaScript</span>. Мы вместе сверстаем
+            сайт нашей группы по этому макету. А затем вы
+            <span class="main-text-accent">сами</span> сверстаете свои личные
+            странички в качестве домашнего задания и мы выложим все это на
+            сервер.
+          </p>
+        </div>
+        <div class="learn-together">
+          <blockquote class="quote-left">&#8220;</blockquote>
+          <blockquote class="quotation">Учимся вместе!</blockquote>
+          <blockquote class="quote-right">&#8221;</blockquote>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <p class="copyright">
+        2022 &copy;
+        <a
+          class="innopolis-link"
+          href="https://innopolis.com/resident/education/innopolis-university/"
+          >Иннополис</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
+

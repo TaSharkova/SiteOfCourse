@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <script defer src="../scripts/login-popup.js"></script>
+    <title>Студенты - Сайт группы</title>
+  </head>
+  <body class="root">
+    <header class="header">
+      <img class="logo" src="../images/logo.svg" alt="Логотип" />
+      <ul class="site-menu">
+        <li class="site-menu-item">
+          <a class="menu-link" href="../index.html">Главная</a>
+        </li>
+        <li class="site-menu-item">
+          <a class="menu-link active-link" href="#">Студенты</a>
+        </li>
+        <li class="site-menu-item">
+          <a class="menu-link" href="./about.html">О курсе</a>
+        </li>
+        <li class="site-menu-item">
+          <a class="menu-link" href="./contacts.html">Контакты</a>
+        </li>
+      </ul>
+      <a class="login" href="login.html">Войти</a>
+      <div class="login-popup">
+        <h2 class="login-heading">Войти на сайт</h2>
+        <form class="login-form" action="" method="get">
+          <input
+            class="login-input"
+            name="login"
+            type="text"
+            placeholder="Логин"
+            required=""
+          />
+          <input
+            class="login-input"
+            name="password"
+            type="password"
+            placeholder="Пароль"
+            required=""
+          />
+          <button class="popup-button" type="submit">Войти</button>
+        </form>
+      </div>
+    </header>
+    <main class="students">
+      <h1 class="students-heading">Студенты потока 24.08.2022 👧👦</h1>
+      <div class="students-list">
+        <section class="student-card">
+          <img
+            class="student-avatar"
+            src="../images/avatar-men.svg"
+            alt="Аватар студента"
+          />
+          <p class="student-name">Василий Иванов</p>
+        </section>
+        <div class="student-new">
+          <section class="student-card">
+            <a href="../sharkova-page/sharkova.html">
+              <img
+                class="student-avatar"
+                src="../images/Sharkova_photo.jpg"
+                alt="Аватар студента"
+              />
+            </a>
+            <a href="../sharkova-page/sharkova.html"><p class="student-name">Татьяна Шаркова</p></a>
+          </section>
+          <span class="new-one">НОВИЧОК</span>
+        </div>
+        <section class="student-card">
+          <img
+            class="student-avatar"
+            src="../images/avatar-women.svg"
+            alt="Аватар студента"
+          />
+          <p class="student-name">Мария Александрова</p>
+        </section>
+        <section class="student-card">
+          <img
+            class="student-avatar"
+            src="../images/avatar-men.svg"
+            alt="Аватар студента"
+          />
+          <p class="student-name">Василий Иванов</p>
+        </section>
+        <section class="student-card">
+          <img
+            class="student-avatar"
+            src="../images/avatar-men.svg"
+            alt="Аватар студента"
+          />
+          <p class="student-name">Василий Иванов</p>
+        </section>
+        <section class="student-card">
+          <img
+            class="student-avatar"
+            src="../images/avatar-women.svg"
+            alt="Аватар студента"
+          />
+          <p class="student-name">Мария Александрова</p>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <p class="copyright">
+        2022 &copy;
+        <a
+          class="innopolis-link"
+          href="https://innopolis.com/resident/education/innopolis-university/"
+          >Иннополис</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
